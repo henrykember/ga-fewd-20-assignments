@@ -1,0 +1,44 @@
+    body  {
+           font-family: "Inconsolata-Regular";
+    }
+    @font-face {
+                  font-family: "Inconsolata-Regular";
+                  src: url("./fonts/Inconsolata/Inconsolata-Regular.ttf");
+    }
+    h1  {
+        border: 0px solid black;
+        width: 362px;
+        padding-top: 40px;
+        margin-left: 162;
+        margin-right: auto;
+        margin-bottom: 10px;
+        }
+    p  {
+     line-height: 19px;
+     line-width: 6px;
+     border: 0px solid black;
+     width: 800px;
+     margin: auto;
+     padding-right: 13px;
+     height: 500px;
+     overflow-x: scroll;
+  
+    }
+    .button {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  bg-start-gradient: ;
+  bg-end-gradient: #2980b9;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f2e985;
+  text-decoration: none;
+}

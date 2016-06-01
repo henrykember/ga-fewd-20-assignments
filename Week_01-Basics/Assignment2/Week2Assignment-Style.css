@@ -1,0 +1,25 @@
+body {
+      font-family: helvetica;
+}
+h1  {
+     border: 5px solid black;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 300px;
+     padding-right: 200px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     float: center;
+}
+#Dumbopic  {
+            border: 10px solid black;
+            float: left;
+            margin-left: 200px;
+            margin-bottom: 100px;
+            clear: both;
+}
+#Dumbocopy  {
+              float: left;
+    overflow:auto;
+    display:block;
+}
