@@ -3,23 +3,20 @@ body {
 }
 h1  {
      border: 5px solid black;
+     text-align: center;
      margin-left: auto;
      margin-right: auto;
-     padding-left: 300px;
-     padding-right: 200px;
      padding-top: 10px;
      padding-bottom: 10px;
      float: center;
+     clear: all;
 }
-#Dumbopic  {
-            border: 10px solid black;
-            float: left;
-            margin-left: 200px;
-            margin-bottom: 100px;
-            clear: both;
+div#dumbo  {
+         border: 5px solid black;
 }
-#Dumbocopy  {
+img#dumbopic  {
+               margin: 30px;
+}
+p#dumbocopy  {
               float: left;
-    overflow:auto;
-    display:block;
 }
