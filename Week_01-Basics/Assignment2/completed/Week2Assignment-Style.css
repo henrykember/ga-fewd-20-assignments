@@ -4,9 +4,7 @@ body {
 h1  {
      text-align: center;
      margin-left: auto;
-     margin-right: auto;
-     float: center;
-     
+     margin-right: auto;     
 }
 .wrapper {
          border: 5px solid black;
@@ -20,53 +18,53 @@ h1  {
          min-height: 330px;
           
 }
-img#dumbopic  {
+#dumbopic  {
                float: left;
                margin: 20px;
                   
 }
-p#dumbocopy  {
+#dumbocopy  {
               margin-left: 20px;
               margin-right: 20px;
 }
 #plushie  {
               border: 5px solid black;
 }
-img#plushiepic  {
+#plushiepic  {
                 float: right;
                 margin: 20px;
 }
-p#plushiecopy  {
+#plushiecopy  {
               text-align: right;
               margin-right: 100px;
 }
-nav  {
-      clear: all;
-      text-align: center;
-      border: 5px solid black;
-      margin: 20px;
-      height: 150px;
+nav  {   border: 5px solid black;
+         max-width: 1200px;
+         min-width: 400px;
+         height: 100px;
+         margin: 20px;
 }
 a.buttons  {
+           text-align: center;
            color: white;
            background-color: blue;
            min-width: 100px;
-           height: 30px;
-           padding: 15px;
+           height: 20px;
+           padding: 20px;
            margin: 20px;
            text-decoration: none;
-           text-align: center;
 }
 #previous  {
             float: left;
-            
 }
 #home  {
-        margin-left: 10px;
-        margin-right: 10px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
 }
 #next  {
         float: right;
+}
         
 
 
