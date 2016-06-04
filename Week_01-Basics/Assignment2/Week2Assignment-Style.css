@@ -2,21 +2,72 @@ body {
       font-family: helvetica;
 }
 h1  {
-     border: 5px solid black;
      text-align: center;
      margin-left: auto;
      margin-right: auto;
-     padding-top: 10px;
-     padding-bottom: 10px;
      float: center;
-     clear: all;
+     
 }
-div#dumbo  {
+.wrapper {
          border: 5px solid black;
+         max-width: 1200px;
+         min-width: 400px;
+         margin: 20px;
+}
+
+.wrapper.dogs {
+         max-height: 750px;
+         min-height: 330px;
+          
 }
 img#dumbopic  {
-               margin: 30px;
+               float: left;
+               margin: 20px;
+                  
 }
 p#dumbocopy  {
-              float: left;
+              margin-left: 20px;
+              margin-right: 20px;
 }
+#plushie  {
+              border: 5px solid black;
+}
+img#plushiepic  {
+                float: right;
+                margin: 20px;
+}
+p#plushiecopy  {
+              text-align: right;
+              margin-right: 100px;
+}
+nav  {
+      clear: all;
+      text-align: center;
+      border: 5px solid black;
+      margin: 20px;
+      height: 150px;
+}
+a.buttons  {
+           color: white;
+           background-color: blue;
+           min-width: 100px;
+           height: 30px;
+           padding: 15px;
+           margin: 20px;
+           text-decoration: none;
+           text-align: center;
+}
+#previous  {
+            float: left;
+            
+}
+#home  {
+        margin-left: 10px;
+        margin-right: 10px;
+}
+#next  {
+        float: right;
+        
+
+
+
