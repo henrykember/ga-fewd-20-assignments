@@ -1,3 +1,9 @@
+    strong  {
+        
+             font-weight: bold;
+             font-height: 18px;
+}
+
     body  {
            font-family: "Inconsolata-Regular";
     }
@@ -9,12 +15,13 @@
         border: 0px solid black;
         width: 362px;
         padding-top: 40px;
-        margin-left: 162;
+        margin-left: 170px;
         margin-right: auto;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         }
     p  {
-     line-height: 19px;
+     font-size: 18px;
+     line-height: 22px;
      line-width: 6px;
      border: 0px solid black;
      width: 800px;
