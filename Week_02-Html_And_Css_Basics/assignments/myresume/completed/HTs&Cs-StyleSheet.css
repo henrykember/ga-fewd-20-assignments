@@ -30,22 +30,9 @@
      height: 500px;
      overflow-x: scroll;
   
-    }
-    .button {
-  -webkit-border-radius: 12;
-  -moz-border-radius: 12;
-  border-radius: 12px;
-  font-family: Georgia;
-  color: #000000;
-  font-size: 20px;
-  bg-start-gradient: ;
-  bg-end-gradient: #2980b9;
-  padding: 10px 20px 10px 20px;
-  border: solid #000000 2px;
-  text-decoration: none;
+
+#inlinelm  {
+    text-decoration: underline;
+    margin: 170px;
 }
 
-.btn:hover {
-  background: #f2e985;
-  text-decoration: none;
-}
