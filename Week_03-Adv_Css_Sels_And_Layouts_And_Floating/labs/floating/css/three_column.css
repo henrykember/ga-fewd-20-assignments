@@ -4,11 +4,21 @@ section#mycontent > article {
   width: 200px;
   border: 2px solid #0088FF;
   background-color: #FFFF00;
+  margin-right: 20px;
 }
 
 p#othertext {
     background-color: #CCCCCC;
 }
 
+div.clearit  {
+	clear: both;
+}
 
-
+article.centerelement {
+	background-color: #FF0000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	width: 200px;
+}
