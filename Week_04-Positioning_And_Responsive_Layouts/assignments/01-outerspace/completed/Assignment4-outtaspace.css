@@ -1,0 +1,26 @@
+body  {
+  background-color: black;
+}
+.circle  {
+	border-radius: 50%;
+}
+#bigcircle  {
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 200px;
+	border: 2px black;
+	color: white;
+	background: linear-gradient(left, blue, white);
+	margin-top: 250px;
+	margin-left: 300px;
+}
+#secondcircle  {
+	position: absolute;
+	display: block;
+	width: 75px;
+	height: 75px;
+	background-color: red;
+	margin-top: 300px;
+	margin-left: 250px;
+}
