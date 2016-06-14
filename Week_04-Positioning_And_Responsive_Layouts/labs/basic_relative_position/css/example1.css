@@ -30,7 +30,7 @@ body {
 #box2 {
   background-color: #0000FF;
   position: relative;
-  top: 40px;
-  left: 40px;
+  top: -40px;
+  left: 30px;
 }
 

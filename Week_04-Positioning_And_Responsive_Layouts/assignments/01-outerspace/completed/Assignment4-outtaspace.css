@@ -4,23 +4,108 @@ body  {
 .circle  {
 	border-radius: 50%;
 }
-#bigcircle  {
+#axis  {
 	position: absolute;
 	display: block;
-	width: 200px;
-	height: 200px;
+	width: 2px;
+	height: 550px;
+	margin-top: 50px;
+	margin-left: 500px;
+	color: white;
+	border: 1px solid white;
+	transform: rotate(15deg);
+	z-index: 01;
+}
+#mercury  {
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 40px;
 	border: 2px black;
 	color: white;
-	background: linear-gradient(left, blue, white);
-	margin-top: 250px;
-	margin-left: 300px;
+	background: linear-gradient(135deg, #1245FF, black);
+	margin-top: 200px;
+	margin-left: 330px;
+	transform: translate(-50%, -50%);
+	z-index: 02;
 }
-#secondcircle  {
+ #sun  {
 	position: absolute;
 	display: block;
-	width: 75px;
-	height: 75px;
-	background-color: red;
+	width: 400px;
+	height: 400px;
+	color: white;
+	text-align: center;
+	background: linear-gradient(135deg, #F43345, black);
+	margin-top: 325px;
+	margin-left: 500px;
+	transform: translate(-50%, -50%);
+	z-index: 03;
+}
+#venus  {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	color: white;
+	background: linear-gradient(135deg, orange, black);
+	margin-top: 255px;
+	margin-left: 200px;
+	z-index: 04;
+}
+#earth  {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	color: white;
+	background: linear-gradient(135deg, red, black);
+	margin-top: 335px;
+	margin-left: 130px;
+	text-align: center;
+	z-index: 05;
+}
+#mars  {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	color: white;
+	background: linear-gradient(135deg, red, black);
+	margin-top: 470px;
+	margin-left: 165px;
+	z-index: 06;
+}
+#jupiter  {
+	position: absolute;
+	display: block;
+	width: 215px;
+	height: 215px;
+	color: white;
+	background: linear-gradient(135deg, green, black);
+	margin-top: 450px;
+	margin-left: 500px;
+	z-index: 07;
+}
+#saturn  {
+	position: absolute;
+	display: block;
+	width: 205px;
+	height: 205px;
+	color: white;
+	background: linear-gradient(135deg, #FF00F0, black); 
 	margin-top: 300px;
-	margin-left: 250px;
+	margin-left: 700px;
+	z-index: 08;
+}
+#uranus  {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	color: white;
+	background: linear-gradient(135deg, purple, black);
+	margin-top: 200px;
+	margin-left: 700px;
+	z-index: 09;
 }
