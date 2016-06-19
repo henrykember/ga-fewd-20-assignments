@@ -1,0 +1,108 @@
+
+body {
+      font-family: helvetica;
+      font-weight: normal;
+      font-style: normal;
+}
+h1  {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;     
+}
+.wrapper {
+         border: 5px solid black;
+         max-width: 1200px;
+         min-width: 400px;
+         margin: 20px;
+}
+
+.wrapper.dogs {
+         max-height: 750px;
+         min-height: 330px;
+          
+}
+#dumbopic  {
+               float: left;
+               margin: 20px;
+                  
+}
+#dumbocopy  {
+              margin-left: 20px;
+              margin-right: 20px;
+}
+#plushie  {
+              border: 5px solid black;
+}
+#plushiepic  {
+                float: right;
+                margin: 20px;
+}
+#plushiecopy  {
+              text-align: right;
+              margin-right: 100px;
+}
+nav  {   border: 5px solid black;
+         max-width: 1200px;
+         min-width: 400px;
+         margin: 20px;
+         padding: 20px;
+}
+a.buttons  {
+  display: block;
+           text-align: center;
+           color: white;
+           background-color: blue;
+           min-width: 100px;
+           text-decoration: none;
+           padding: 20px;
+}
+#previous  {
+            float: left;
+}
+#home  {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+}
+#next  {
+        float: right;
+}
+.clearit {
+  clear:both;
+}
+@media only screen 
+and (min-device-width : 768px) {
+  .wrapper  {
+    width: 760px
+    margin: 20px;
+  }
+  #dumbopic  {
+    display: block;
+    width: 720px ;
+    margin: 20px;                 
+  }
+  #dumbocopy  {
+  display: block;
+  margin: 20px;
+  font-size: 22px;
+  }
+}
+@media only screen
+and (min-device-width : 1024px)  {
+  .wrapper  {
+    width: 1000px;
+    margin: 20px;
+  }
+  #dumbopic  {
+    display: block;
+    width: 960px;
+    margin: 20px;
+  }
+  #dumbocopy  {
+  display: block;
+  margin: 20px;
+  font-size: 22px;
+  }
+}
+
+
