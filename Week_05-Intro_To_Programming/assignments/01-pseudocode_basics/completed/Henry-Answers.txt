@@ -1,0 +1,21 @@
+1. True
+2. 2
+3. r=120
+4. z=212
+5. x=4
+6. a=0
+7. a=1
+8. a=true
+9. s=true, t=false, u=false 
+10.x=0
+11.x=true
+12.x=2
+13.v=1000, exponential (power of 3)
+14.v=49, exponential (power of 2)
+15.v=5
+16. z=20
+
+
+
+
+
