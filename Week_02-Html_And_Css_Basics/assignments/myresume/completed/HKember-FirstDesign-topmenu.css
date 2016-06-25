@@ -45,21 +45,29 @@ a {
 .clearit  {
   clear: both;
 }
+#content  {
+  border-sizing: border-box;
+  display: flex;
+  min-width: 900px;
+}
 #blurb {
   float: left;
   width: 154px;
   padding: 20px;
   margin-left: 30px;
   font-size: 11px;
-  border: 2px solid white;
+  border: 5px solid white;
 }
 #videos {  
-  float: left;
-  width: 730px;
-  margin-left: 20px;
-  box-sizing: border-box;
+  float: right;
 }
 .htt  {
+  box-sizing: border-box;
+  display: block;
   width: 720px;
-  height: 540px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
 }
