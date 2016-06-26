@@ -3,12 +3,12 @@
 
 
 function main () {
-  var userValue;
 
-  userValue = window.prompt("Hello! Please enter a value!");
-  window.alert("You entered: " + userValue);
-
-  return false;
+  var value1 = window.prompt("Gimme a number");
+  var value2 = window.prompt("Now gimme another number");
+  var finalval = parseInt(value1) * parseInt(value2);
+  return window.alert("These make " + finalval);
+  
 }
 
 
