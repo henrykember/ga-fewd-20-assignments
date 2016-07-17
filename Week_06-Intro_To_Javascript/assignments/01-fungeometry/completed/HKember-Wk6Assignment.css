@@ -1,0 +1,77 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body  {
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(219,16,230,1) 50%, rgba(102,0,255,1) 100%);
+  background-attachment: fixed;
+}
+#cta  {
+	float: right;
+	font-size: 54px;
+	color: black;
+	text-transform: uppercase;
+	text-transform: bold;
+}
+#lorips  {
+	position: absolute;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 44px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.25);
+}
+.square  {
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	border-left: 1px solid yellow;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+.square:hover  {
+	cursor: default;
+	transform: rotate(180deg);
+	transition: all 0.3s ease-in-out 0s;
+}
+.square .circle {
+ position: relative;
+ margin-top: 160px;
+ margin-left: 160px;
+ width: 320px;
+ height: 320px;
+ border-radius: 50%;
+ transform: translate(-50%, -50%);
+ border: 1px solid black;
+}
+#sqtl  {
+	margin-top: 200px;
+	margin-left: 400px;
+}
+#sqtr  {
+	margin-top: 200px;
+	margin-left: 730px;
+}
+#sqbl  {
+  margin-top: 530px;
+  margin-left: 400px;
+}
+#sqbr  {
+  margin-top: 530px;
+  margin-left: 730px;
+}
+.square .rotate {
+ position: relative;
+ margin-top: 160px;
+ margin-left: 160px;
+ width: 320px;
+ height: 320px;
+ border-radius: 50%;
+ transform: translate(-50%, -50%);
+ border: 1px solid black;
+}
